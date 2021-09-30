@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<p>this is a <i>italic text</i>go on</p>
+	<p>my favourite colour is<ins>blue</ins>|<del>red</del></p>
+	<p>do not forget to buy<mark>milk</mark>today</p>
+	<pre>lorem ipsam20	arif </pre>
+	<label for="file">downloading progress:</label>
+	<progress id="file" value="25" max="100">32%</progress>
+	<q>this is a qutation text</q>
+	<p><s>only 50 ticket left!</s></p>
+	<p>sold out!</p>
+	<p><small>this is some smaller text</small></p>
+	<p><strong>the text is important</strong></p>
+	<svg width="100" height="100">
+		<circle cx="50" cy="50" r="40"strock="green" strock-width="4" fill="yellow"/>sorry your browser does not supprot inline svg</svg>
+		
+		<h1>The button name attribute</h1>
+
+<form action="/action_page.php" method="get">
+Choose your favorite subject:
+<button name="subject" type="submit" value="HTML">HTML</button>
+<button name="subject" type="submit" value="CSS">CSS</button>
+</form>
+<h1>The input placeholder attribute</h1>
+
+<form action="/action_page.php">
+  <label for="phone">Enter a phone number:</label><br><br>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+  <small>Format: 123-45-678</small><br><br>
+  <input type="submit">
+</form>
+<h1 style="color:blue;text-align:center;">This is a header</h1>
+<p style="color:green;">This is a paragraph.</p>
+<h1>The canvas height and width attributes</h1>
+
+<canvas id="myCanvas" width="200" height="200" style="border:1px solid">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#92B901";
+ctx.fillRect(50, 50, 100, 100);
+</script>
+<h1>Try to print this document</h1>
+<p><b>Tip:</b> Keyboard shortcuts, such as Ctrl+P sets the page to print.</p>
+<p><b>Note:</b> The onafterprint event is not supported in Safari and Opera.</p>
+<p><b>Note:</b> In IE, the onafterprint event occurs before the print dialogue box, instead of after.</p>
+
+<script>
+function myFunction() {
+  alert("This document is now being printed");
+}
+
+</body>
+</html>
